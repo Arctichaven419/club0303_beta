@@ -1,1 +1,2 @@
-# club0303_beta
+# Club0303 Website Beta Development
+ShaneSorensen.Sorensenmedia
