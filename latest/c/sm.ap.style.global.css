@@ -1,0 +1,120 @@
+/*                                 */
+/*     DOCUMENT.STYLE.POSTPAGE     */
+/*                                 */
+body {
+    margin:0px;
+    background:#222222;
+    color:#FFFFFF;
+    font-family:bpreplay;
+    overflow-x:hidden;
+}
+.post_pageHeader {
+    width:100%;
+    height:150px;
+    background:#121212;
+}
+.post_contentContainer {
+    width:1300px;
+    z-index:1;
+}
+
+
+/*                                      */
+/*      DOCUMENT.STYLE.NAV-BANNER       */
+/*                                      */
+
+.ap_banner_nav_button {
+    width:100px;
+    height:40px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+.ap_banner_nav_button_newPost {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.newpost.default.png);
+}
+.ap_banner_nav_button_newPost:hover {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.newpost.hover.png);
+}
+.ap_banner_nav_button_editPost {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.editpost.default.png);
+}
+.ap_banner_nav_button_editPost:hover {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.editpost.hover.png);
+}
+.ap_banner_nav_button_profile {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.profile.default.png);
+}
+.ap_banner_nav_button_profile:hover {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.profile.hover.png);
+}
+.ap_banner_nav_button_logout {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.logout.default.png);
+}
+.ap_banner_nav_button_logout:hover {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.logout.hover.png);
+}
+.ap_banner_nav_button_save {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.save.default.png);
+}
+.ap_banner_nav_button_save:hover {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.save.hover.png);
+}
+.ap_banner_nav_button_home {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.home.default.png);
+}
+.ap_banner_nav_button_home:hover {
+    background-image:url(../sm-admin/portal/m/ui/banner/nav/button.home.hover.png);
+}
+
+
+/*                                     */
+/*      DOCUMENT.STYLE.POST.INPUT      */
+/*                                     */
+.ap_form_input_text {
+    border:0px;
+    width:100%;
+    font-size:36px;
+    font-family:bpreplay;
+    background: #121212;
+    color:#FFFFFF;
+    text-indent:5px;
+}
+.ap_form_input_text:focus {
+    outline: none;
+}
+.ap_form_input_text-2 {
+    border:0px;
+    width:100%;
+    font-size:24px;
+    font-family:bpreplay;
+    background:#121212;
+    color:#FFFFFF;
+    text-indent:5px;
+}
+.ap_form_input_text-2:focus {
+    outline: none;
+}
+.ap_form_input_body {
+    border:0px;
+    font-family:bpreplay;
+    background:#636363;
+    color:#000000;
+    text-indent:5px;
+    width:983px;
+    height:260px;
+    resize:vertical;
+    font-size:18px;
+}
+.ap_form_input_type {
+    width:150px;
+    height:25px;
+    border:0px;
+    background:#121212;
+    color:#FFFFFF;
+    font-family:bpreplay;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+.ap_form_input_type:focus {
+    outline:none;
+}
