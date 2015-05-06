@@ -1,0 +1,6 @@
+<?php
+//      SCRIBABLE ELEMENTS FOR '/BLOG/READ.PHP'
+//      VERSION 1.0
+
+
+?>
